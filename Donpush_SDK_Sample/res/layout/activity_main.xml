@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.donpush_sdk_sample.MainActivity" >
+    <TableLayout 
+           android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+        >
+        <TableRow 
+             android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+            >
+              <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login" />
+        
+           <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout" />
+            
+        </TableRow>
+          <TableRow 
+             android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+            >
+              <Button
+        android:id="@+id/getScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getScore" />
+           
+           <Button
+        android:id="@+id/putScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="putScore" />
+        </TableRow>
+         <TableRow 
+             android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+            >
+                <Button
+        android:id="@+id/getUserinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getUserinfo" />
+           
+           <Button
+        android:id="@+id/getRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getRanking" />
+        </TableRow>
+         <TableRow 
+             android:layout_width="match_parent"
+	 	    android:layout_height="wrap_content"
+            >
+                 <Button
+        android:id="@+id/getCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getCoin" />
+                   
+           <Button
+        android:id="@+id/check_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check_login" />
+        </TableRow>
+    </TableLayout>
+	  		<ScrollView 
+	  		     android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+                 android:background="#333333"
+	  		    >
+           <TextView 
+               android:id="@+id/result"
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+               android:background="#333333"
+               android:textColor="#ffffff"
+               android:padding="5dp"
+               />
+           </ScrollView>
+</LinearLayout>
