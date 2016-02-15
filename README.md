@@ -12,3 +12,5 @@ version1.3 수정사항: 적립 API 호출 delay적용
 적용방법: 코드수정없이 Donpush_SDK_1.3.jar 을 교체하시면 됩니다.
 
 version1.4 isLogined 함수 구현.
+
+version1.5 인터넷 없을때 null값 에러 수정.
