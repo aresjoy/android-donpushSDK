@@ -14,3 +14,5 @@ version1.3 수정사항: 적립 API 호출 delay적용
 version1.4 isLogined 함수 구현.
 
 version1.5 인터넷 없을때 null값 에러 수정.
+
+version1.6 적립함수가 잘안되는점 수정.
