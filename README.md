@@ -18,6 +18,7 @@ version1.5 인터넷 없을때 null값 에러 수정.
 version1.6 적립함수가 잘안되는점 수정.
 
 version1.7 beta   
+
      1. reset_time 게임 데이터 초기화 적용. ( 문서 참고 하세요. get_score, put_score 함수에서 API로 내려줍니다.)
     
      2.  put score  함수 수정. 
