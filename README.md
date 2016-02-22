@@ -1,6 +1,7 @@
 # android-donpushSDK
 
 version.1.2
+
 수정사항: 적립해주는 API 수정하였습니다.
 
 기존 문제점: 적립API 호출시 piggy2048에서 적립됨.
