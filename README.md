@@ -20,6 +20,6 @@ version1.6 적립함수가 잘안되는점 수정.
 
 version1.7 beta   
 
-     1. reset_time 게임 데이터 초기화 적용. ( 문서 참고 하세요. get_score, put_score 함수에서 API로 내려줍니다.)
+     1. reset_time 게임 데이터 초기화 적용. ( 문서 참고 하세요. get_score, put_score 함수에서 API로 내려줍니다.)(현재 이 부분은 테스트 중이며  지금 적용하지 마시고  테스트 완료후에 적용하셔야 합니다.)
     
      2.  put score  함수 수정. 
