@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 		if(CheckPermission_request(new String[]{Manifest.permission.READ_PHONE_STATE},1)) return ;
 		
 		donpushSDK=new DonpushSDK(this);
-		donpushSDK.init("aaaaabbbbccccdd",true);
+		donpushSDK.init("aaaaabbbbccccdd",true,result );
 		
 		
 	}
@@ -147,7 +147,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 			Toast.makeText(MainActivity.this,"login:"+status, Toast.LENGTH_SHORT).show();
 			break;
 		case R.id.putScore:
-			donpushSDK.put_score("1000", "1111", "Myname","KR",result);
+			donpushSDK.put_score("1", "1", "Myname","KR",result);
 			break;
 		case R.id.getScore:
 			donpushSDK.get_score(result);
