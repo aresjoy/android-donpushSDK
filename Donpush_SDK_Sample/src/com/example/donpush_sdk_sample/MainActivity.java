@@ -130,6 +130,11 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 	}
 
 	
+	/**
+	 *  에러 코드가 1004일때   로그인 정보가 유효하지 않아서 입니다. (로그인상태가 아니거나 ,휴면이거나 ,탈퇴 된 상태)
+	 *  logout처리를 하시고  다시 로그인 하여야 합니다.
+	 * 
+	 */
 	@Override
 	public void onClick(View v) {
 		boolean status=false;
